@@ -1,0 +1,110 @@
+
+        /* Navbar style Amazon */
+        .navbar {
+            display: flex;
+            align-items: center;
+            padding: 8px 16px;
+            background-color: #131921;
+            color: #fff;
+            width: 100%;
+            box-sizing: border-box;
+        }
+
+        /* Style pour la partie gauche de la navbar (logo) */
+        .navbar-left {
+            flex-grow: 0;
+            
+        }
+
+        /* Style pour l'image du logo */
+        .navbar-logo {
+            height: 40px;
+        }
+
+        /* Style pour la partie droite de la navbar (liens) */
+        .navbar-right {
+            display: flex;
+            gap: 10px;
+            margin-left: auto;
+        }
+
+        /* Liens de la navbar */
+        .navbar-right a {
+            color: #ffffff;
+            text-decoration: none;
+            font-size: 0.85rem;
+            padding: 6px 10px;
+            border-radius: 2px;
+            transition: background-color 0.15s ease;
+        }
+
+        .navbar-right a:hover {
+            background-color: #232f3e;
+            text-decoration: none;
+        }
+
+        .navbar-right a.logout {
+            color: #ffd814;
+        }
+        .nav {
+            width: 150px;
+            margin:auto;
+        }
+
+        /* --- Bouton loupe (le bouton autour de l'image) --- */
+        .search-bar button {
+            background: none;       /* On retire l'arrière-plan par défaut du bouton */
+            border: none;           /* On retire la bordure par défaut */
+            padding: 40px;
+            margin-left: 5px;
+            cursor: pointer;        /* Le pointeur de la souris devient la main au survol */
+            float:center;
+        }
+        
+        
+         /* --- Image de la loupe --- */
+        .search-icon {
+            width: 20px;            /* Ajuste la taille de l’icône selon tes besoins */
+            height: 20px;           
+            object-fit: contain;    /* S’assure que l’image reste bien proportionnée */
+            transition: transform 0.3s ease, filter 0.3s ease;
+        }
+  
+            /* --- Effet au survol du bouton: on agrandit un peu la loupe --- */
+         .search-bar button:hover .search-icon {
+            transform: scale(1.1);
+            filter: brightness(0.8);
+        }
+
+        .f{
+            float: left ;
+            width: 1000px;
+        }
+        .o{
+            width: 2000px;
+            float: left;
+        }
+
+        .l{
+            float: left ;
+            width: 200px;
+            height: 20px;
+        }
+        .navbar-search {
+            flex-grow: 1;
+            text-align: center;
+            
+        }
+        
+        #searchBar {
+            width: 30%;
+            padding: 8px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            font-size: 16px;
+            margin-right: 45%;
+            
+        }
+        
+  
+        

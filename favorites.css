@@ -1,0 +1,106 @@
+/* Global styles */
+
+
+h1 {
+    text-align: left;
+    margin: 24px auto 8px;
+    max-width: 1200px;
+    font-size: 1.6em;
+    color: #111;
+}
+
+/* Style for the products list */
+.products-list {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: 16px;
+    margin: 20px auto 40px;
+    max-width: 1200px;
+    padding: 0 12px;
+}
+
+.products-item {
+    background-color: #ffffff;
+    border: 1px solid #d5d9d9;
+    border-radius: 8px;
+    padding: 10px 10px 12px;
+    text-align: left;
+    box-shadow: 0 2px 4px rgba(15, 17, 17, 0.15);
+    transition: box-shadow 0.15s ease, transform 0.15s ease;
+}
+
+.products-item:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 14px rgba(15, 17, 17, 0.25);
+}
+
+.products-item img {
+    max-width: 100%;
+    height: 210px;
+    border-radius: 4px;
+    margin-bottom: 8px;
+    object-fit: contain;
+    background-color: #f7f8f8;
+}
+
+.product-name {
+    font-size: 0.95em;
+    font-weight: bold;
+    color: #0f1111;
+    margin: 4px 0 3px;
+}
+
+.products-item p {
+    color:#b12704;
+    font-size: 1em;
+    margin-bottom: 8px;
+    font-weight: 600;
+}
+
+/* Style for the "remove from favorites" link */
+.remove-favorite {
+    display: inline-block;
+    background-color: #ffd814;
+    color: #0f1111;
+    border: 1px solid #fcd200;   
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 0.9em;
+    margin: 4px 0 0;
+    padding: 6px 10px;
+    transition: background-color 0.15s ease;
+}
+
+.remove-favorite:hover {
+    background-color: #f7ca00;
+}
+
+/* Style for the "return to catalog" link */
+.g {
+    display: block;
+    text-align: center;
+    background-color: #ffd814;
+    color:  #0f1111;
+    text-decoration: none;
+    padding: 10px 15px;
+    margin: 20px auto;
+    width: 220px;
+    border-radius: 20px;
+    font-size: 0.95em;
+    transition: background-color 0.15s ease;
+}
+
+.g:hover {
+    background-color: #f7ca00;
+}
+/* Arrière-plan vidéo */
+.video-background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+    opacity: 0.2;
+}

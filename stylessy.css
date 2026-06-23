@@ -1,0 +1,61 @@
+.panier{
+   
+    box-shadow: inset 2px 2px 2px 0px rgba(0, 0, 0, 0.5), 7px 7px 20px 0px rgba(0, 0, 0, 0.1), 4px 4px 5px 0px rgba(0, 0, 0, 0.1);
+    background: rgb(255, 255, 255);
+  
+}
+main{
+    padding: 10px;
+}
+div {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 8px;
+}
+.azul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    border: solid black;
+    border-radius: 10px;
+    margin-top: 1px;
+   width: 90%;
+   padding: 5px;
+}
+
+
+
+  button {
+    width: 160px;
+    height: 80px;
+    color: #fff;
+    border-radius: 5px;
+    padding: 10px 25px;
+    font-family: "lato", sans-serif;
+    
+    font-weight: 500;
+    cursor: pointer;
+    box-shadow: inset 2px 2px 2px 0px rgba(0, 0, 0, 0.5), 7px 7px 20px 0px rgba(0, 0, 0, 0.1), 4px 4px 5px 0px rgba(0, 0, 0, 0.1);
+    background: rgb(222, 217, 230);
+    background: linear-gradient(0deg, #000000 0%, rgb(212, 209, 214) 100%);
+    border: none;
+    top: 0;
+}
+ button:hover {
+    box-shadow: 4px 4px 6px 0 rgba(0, 0, 0, 0.5), -4px -4px 6px 0 rgba(116, 125, 136, 0.5), inset -4px -4px 6px 0 rgba(225, 225, 225, 0.2), inset 4px 4px 6px 0 rgba(0, 0, 0, 0.4);
+
+}
+.panier {
+    padding: 5px;
+    border: solid black;
+    border-radius: 10px;
+}
+.hhhh{
+    padding: 50px;
+}
+.nom{
+    font-style: italic;
+    font-size: 20px;
+    color: rgb(0, 255, 0);
+    text-decoration: underline dotted;    
+}

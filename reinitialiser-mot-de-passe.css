@@ -1,0 +1,86 @@
+/* style.css */
+
+/* Styles généraux façon Amazon */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #eaeded;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+/* Conteneur du formulaire */
+form {
+    background: #ffffff;
+    padding: 24px 28px;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(15, 17, 17, 0.2);
+    width: 100%;
+    max-width: 420px;
+}
+
+/* Titres */
+h2 {
+    text-align: left;
+    color: #111;
+    margin-bottom: 12px;
+}
+
+/* Labels */
+label {
+    display: block;
+    margin-bottom: 8px;
+    color: #555;
+}
+
+/* Champs input */
+input[type="password"] {
+    width: 100%;
+    padding: 10px 12px;
+    margin-bottom: 16px;
+    border: 1px solid #d5d9d9;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+/* Bouton */
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #ffd814;
+    border: 1px solid #fcd200;
+    border-radius: 20px;
+    color: #0f1111;
+    font-size: 15px;
+    cursor: pointer;
+    transition: background-color 0.15s ease;
+}
+
+button:hover {
+    background-color: #f7ca00;
+}
+
+/* Messages de succès et d'erreur */
+p {
+    text-align: center;
+    font-weight: bold;
+}
+
+p[style*="color: green"] {
+    color: #28a745;
+}
+
+p[style*="color: red"] {
+    color: #dc3545;
+}
+
+a {
+    color: #007BFF;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}

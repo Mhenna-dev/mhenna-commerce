@@ -1,0 +1,50 @@
+
+
+.fo {
+    text-align:50px;
+    
+    max-width:40%;
+    display: block;
+    margin:  auto;
+    padding: 20px;
+    border: 1px solid #333;
+    border-radius: 50px;
+
+}
+
+
+
+h2 {
+    text-align: center;
+    
+}
+
+.i, option  {
+    display: block;
+    margin-left: 45px;
+    border: solid lightgrey;
+    border-radius: 15px;
+    width: 300px;
+    height: 45px;
+}
+
+
+.b{
+    margin-top: 20px;
+    display: block;
+    width: 200px;
+    height: 40px;
+    border: 2px solid black;
+    border-radius: 40px;
+    background-color: white;
+}
+.b:hover {
+    cursor: pointer;
+    background-color:aqua;
+}
+
+h1 {
+    display: block;
+    margin-top: 0 auto;
+    text-align: center;
+}

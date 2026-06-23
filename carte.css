@@ -1,0 +1,118 @@
+/* Thème Amazon pour la page panier */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #eaeded;
+    margin: 0;
+    padding: 0;
+    color: #0f1111;
+    line-height: 1.6;
+}
+/* Arrière-plan vidéo */
+.video-background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+}
+
+/* En-tête principal */
+h1 {
+    text-align: center;
+    color: #0078d7;
+    margin: 20px 0;
+}
+
+/* Conteneur du panier */
+ul {
+    list-style: none;
+    padding: 0;
+    max-width: 1000px;
+    margin: 24px auto;
+    background: #ffffff;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(15, 17, 17, 0.15);
+    overflow: hidden;
+}
+
+ul li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 12px;
+    padding: 16px;
+    border-bottom: 1px solid #e7e7e7;
+}
+
+ul li:last-child {
+    border-bottom: none;
+}
+
+/* Image des produits */
+ul li img {
+    width: 120px;
+    height: 120px;
+    border-radius: 4px;
+    object-fit: contain;
+    margin-right: 12px;
+    background-color: #f7f8f8;
+}
+
+/* Détails du produit */
+ul li span {
+    flex-grow: 1;
+    margin-left: 10px;
+    font-size: 1em;
+}
+
+/* Total du panier */
+p {
+    text-align: right;
+    max-width: 1000px;
+    margin: 12px auto 24px;
+    font-size: 1.1em;
+    font-weight: 600;
+    color: #0f1111;
+}
+
+/* Boutons */
+.b {
+    display: inline-block;
+    background-color: #ffd814;
+    color:  #0f1111;
+    border: 1px solid #fcd200;
+    padding: 8px 14px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 0.95em;
+    margin: 6px 4px 0 0;
+    transition: background-color 0.15s ease;
+}
+
+.b:hover {
+    background-color: #f7ca00;
+}
+
+/* Lien Retour au catalogue */
+.m   {
+    display: block;
+    text-align: center;
+    background-color: #ffd814;
+    color:  #0f1111;
+    text-decoration: none;
+    padding: 10px 15px;
+    margin: 20px auto;
+    width: 220px;
+    border-radius: 20px;
+    font-size: 1em;
+    transition: background-color 0.15s ease;
+}
+
+.m:hover {
+    background-color: #f7ca00;
+}
+
+
+
